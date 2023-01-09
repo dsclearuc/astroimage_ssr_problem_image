@@ -1,0 +1,19 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/image": "^0.12.1",
+    "@astrojs/node": "^4.0.0",
+    "astro": "^1.9.1"
+  },
+  "description": "Demonstrate that @astro/image module doesn´t correctly consider subpath configuration on sharp or squoosh image manipulation server with SSR option enabled when building the project."
+}
